@@ -3,18 +3,40 @@ body{
 }
 
 .container{
-    background-color: aqua;
+    background-color:#E6E6E6;
     display: grid;
-    grid-template-columns: 20fr 20fr 20fr 20fr 20fr;
-    padding: 1em;
+    grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+    /*padding: 1em; */
+    align-items: flex-start;
 
 
 
 }
 .one{
-    background-color: red;
+    /* background-color: red;*/
+    align-items: center;
+    padding: 1em;
 
 }
 .two{
-    background-color:lightblue;
+    
+    margin: 1em;
+
 }
+.social-icons{
+    display: flex;
+}
+.bottom-footer{
+    display: grid;
+    grid-template-columns:50fr 50fr;
+    background-color: rgb(45, 47, 49);
+}
+.top{
+    background-attachment: fixed;
+    background-image:url(/img/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
