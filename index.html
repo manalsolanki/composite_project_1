@@ -27,42 +27,44 @@
 		<main>
 			<section class="top-banner">
 				<article class="search-section">
-					<button type="button" class="search-option">Flights</button>
-					<button type="button" class="search-option">Hotels</button>
-					<button type="button" class="search-option">Cars</button>
-					<button type="button" class="search-option">Vacations</button>
+					<button type="button" class="search-option form-element">Flights</button>
+					<button type="button" class="search-option form-element">Hotels</button>
+					<button type="button" class="search-option form-element">Cars</button>
+					<button type="button" class="search-option form-element">Vacations</button>
 					<div class="where-to-travel">
 						<p class="name-of-button">Where</p>
-						<input type="text" placeholder="Where to travel" class="where-button">
+						<input type="text" placeholder="Where to travel" class="where-button form-element">
 					</div>
 					<div class="date-details">						
 						<p class="name-of-button">Check-In</p>
-						<input type="date" style="width: auto;">
+						<input type="date" name="checkin" class="form-element">
 					</div>
 					<div class="date-details">
 						<p class="name-of-button">Check-out</p>
-						<input type="date">
+						<input type="date" name="checkout" class="form-element">
 					</div>
 					<div class="date-details">
 						<p class="name-of-button">Rooms</p>
-						<input type="number">
+						<input type="number" name="rooms" class="form-element">
 					</div>
 					<div class="date-details">
-						<button type="submit" style="margin-top: 1em; width: auto;" >Search</button>
+						<button type="submit"  class="form-element" >Search</button>
 					</div>
-
-				
 				</article>
-				
+			</section>
+			<section class="top-deals">
+				<h1>Top Deals</h1>
+				<h2>Travel Smart.Save Smarter</h2>
+				<p>We think you should always get a deal when you book with us,so we're makking it easy to save.You can see all of our greatest offers below,but did you know you can save even more with these promo codes and <a>coupons</a> ? Well,you can. And you should. </p>
 			</section>
 			
 		</main>
 		<footer>
 			<section>
 				<nav >
-					<ul class = "container">
+					<ul class = "container-footer">
 						<li class="one"><img src="img/Travelocity_logo-123.svg" alt="Travelocity-logo"></li>
-						<li class="two">
+						<li class="footer-elements">
 							<ul>
 								<li><h2>Our Services</h2></li>
 								<li><a href ="#">Hotels</a></li>
@@ -71,7 +73,7 @@
 								<li><a href ="#">Deals</a></li>						
 							</ul>
 						</li>
-						<li class="two">
+						<li class="footer-elements">
 							<ul>
 								<li><h2>Company</h2></li>
 								<li><a href ="#">About Us</a></li>
@@ -80,19 +82,19 @@
 								<li><a href ="#">Site Map</a></li>						
 							</ul>
 						</li>	
-						<li class="two">
+						<li class="footer-elements">
 							<ul>
 								<li><h2>Partner Services</h2></li>
 								<li><a href ="#">Add a property</a></li>					
 							</ul>
 						</li>
-						<li class="two">
+						<li class="footer-elements">
 							<ul>
 								<li><h2>Follow Us</h2></li>
 								<div class="social-icons">
-									<li><a href="https://www.facebook.com/travelocity/"><img src="img/facebook.png"></a></li>
-									<li><a href="https://twitter.com/travelocity?lang=en"><img src="img/twitter.png"></a></li>
-									<li><a href="https://www.youtube.com/user/TRAVELOCITY"><img src="img/youtube.png"></a></li>	
+									<li style="display: inline;"><a href="https://www.facebook.com/travelocity/" ><img src="img/facebook.png" class="social-link"></a></li>
+									<li style="display: inline;"><a href="https://twitter.com/travelocity?lang=en"><img src="img/twitter.png" class="social-link"></a></li>
+									<li style="display: inline;"><a href="https://www.youtube.com/user/TRAVELOCITY"><img src="img/youtube.png"class="social-link"></a></li>	
 								</div>
 							</ul>
 						</li>
