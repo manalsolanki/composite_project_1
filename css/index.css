@@ -5,18 +5,11 @@
     background-repeat: no-repeat;
     display: flex;
     align-items:center;
-<<<<<<< HEAD
-}
-.search-section{
-    background-color:rgb(0, 62, 116, 55%);
-    width: 40%;
-=======
     background-position: center ;
 }
 .search-section{
     background-color:rgb(0, 62, 116, 55%);
-    width: 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       0%;
->>>>>>> homepage_fixes
+    width: 40%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       0%;
     margin:auto 1em;
     border-radius: 8px;
     padding: 10px;
@@ -46,12 +39,9 @@
 .date-details{
     grid-column-end: span 2;
 }
-<<<<<<< HEAD
-=======
 .form-element {
     width: 100%;
     padding: 0.25em 0.5em;
     border-radius: 0.25em;
     line-height: 1.5;
 }
->>>>>>> homepage_fixes
