@@ -48,7 +48,9 @@ input, textarea, button {
 	border-width: thin;
 	border-color: #aaa;
 	vertical-align: middle;
+
 }
+
 [type="checkbox"], [type="radio"] {
 	vertical-align: middle;
 }

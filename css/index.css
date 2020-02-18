@@ -1,8 +1,38 @@
-.search-section{
+.top-banner{
     height: 60vh;
     background-image:url(/img/background-orginal-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+.search-section{
+    background-color:rgb(0, 62, 116, 55%);
+    width: 50%;
+    margin:auto 1em;
+    border-radius: 8px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    grid-gap: 1em;
+}
+.search-option{
+    border-radius: 8px;
+    background-color: ;
+}
+.where-to-travel{
+    grid-column-start:1;
+    grid-column-end: 5;
+}
+.name-of-button{
+    margin: 0em;
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    font-family: Arial;
 
-
+}
+.where.button{
+    width: 100%;
+}
+.date-details{
+    grid-column-end: span 2;
+}
