@@ -49,6 +49,8 @@ input, textarea, button {
 	border-width: thin;
 	border-color: #aaa;
 	vertical-align: middle;
+	font-size: inherit;
+	font-family: inherit;
 
 }
 
