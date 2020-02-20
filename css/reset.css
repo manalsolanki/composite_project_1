@@ -41,6 +41,7 @@ h5 { font-size: 1em; }
 h6 { font-size: 0.8em; }
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	margin: 1rem 0;
+	color: black;
 }
 input, textarea, button {
 	border-image: none;

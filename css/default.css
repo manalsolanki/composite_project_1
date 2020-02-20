@@ -1,3 +1,4 @@
+/* This Css file consist of the common part like header and the footer used over all the pages. */
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
@@ -6,7 +7,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding : 0em 1em;
+    padding : 0.5em 1em;
+    margin: 0em;
     
 }
 .container-footer{
@@ -46,9 +48,7 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.top-deals{
-    padding: 1em;
-}
+
 .social-link{
     width: 3em;
    
