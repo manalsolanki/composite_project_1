@@ -86,3 +86,17 @@
     
     /* check the anchor tag here.*/
 }
+.deals-listing{
+    padding: 0em 2em 2em 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.individual-list{
+    background-image: url(/img/dawson-lovell-W_MUqtuHwyY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:grid;
+    grid-template-columns: 30fr 50fr 20fr;
+    grid-template-rows: 70fr 30fr;
+}

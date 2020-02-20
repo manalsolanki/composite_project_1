@@ -60,3 +60,6 @@ a{
     font-size: 1.1em;
 }
 
+.navigation-select{
+    display: flex;
+}
