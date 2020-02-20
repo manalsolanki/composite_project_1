@@ -17,9 +17,10 @@ body{
     grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
     /*padding: 1em; */
     align-items: flex-start;
+    margin-bottom: 0em;
 
 }
-.one{
+.footer-logo{
     /* background-color: red;*/
     align-items: center;
     padding: 1em;
@@ -32,15 +33,14 @@ a{
     text-decoration: none;
     color:#333333;
 }
-.social-icons{
-  
-    /* justify-content: space-between;*/
 
-}
 .bottom-footer{
-    display: grid;
-    grid-template-columns:50fr 50fr;
-    background-color: rgb(45, 47, 49);
+    display: flex;
+    padding: 1em;
+    background-color: #CFD2D5;
+    align-content: space-around;
+    margin:0em;
+   
 }
 .top-banner{
     background-attachment: fixed;
@@ -62,4 +62,8 @@ a{
 
 .navigation-select{
     display: flex;
+}
+.item-inline{
+    display: inline;
+   
 }
