@@ -1,8 +1,9 @@
 /* This Css file consist of the common part like header and the footer used over all the pages. */
 body{
     font-family: 'Varela Round','Questrial', 'Montserrat';
-    background-color:whitesmoke;
+    background-color:white;
 }
+
 .top-navigation-bar{
     display: flex;
     align-items: center;
@@ -18,27 +19,29 @@ body{
     /*padding: 1em; */
     align-items: flex-start;
     margin-bottom: 0em;
+    padding: 0em 2em;
 
 }
 .footer-logo{
     /* background-color: red;*/
     align-items: center;
     padding: 1em;
+    margin: 1em;
 
 }
 .footer-elements{
     margin: 1em;
 }
-a{
+footer a{
     text-decoration: none;
     color:#333333;
 }
 
 .bottom-footer{
     display: flex;
-    padding: 1em;
+    padding:0em 2em;
     background-color: #CFD2D5;
-    align-content: space-around;
+    justify-content: space-between;
     margin:0em;
    
 }
