@@ -1,6 +1,6 @@
 /* This Css files include the Css for main of index.html page.*/
 :root{
-    --accent-blu :#0E06C4;
+    --accent-blu :#003E74;
     --accent-bro: #753D16;
 
 }
@@ -116,8 +116,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: 15px;
+    padding: 0.9em;
     margin: 0em;
+    font-size: 1.5em;
 }
 .icon-image{
     width: 60px;

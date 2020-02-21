@@ -25,7 +25,34 @@
     padding:0.5em;
 }
 .form-wrapper button{
-    color:#0E06C4;
+    color:#003E74;
     border-radius:0.5em ;
     margin: 0.5em;
+}
+.about-container{
+    position: relative;
+    margin:0em  2em;
+    display: grid;
+    grid-template-columns: 33fr 34fr 33fr;
+    grid-gap:1em;
+    border-radius: 0.5em;
+}
+.card-image-main{
+    width: 100%;
+    height: 100%;
+    margin-left: 1em;
+}
+.location-money-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.content-container{
+    padding: 1em;
+    background-color: violet;
+}
+.about-item{
+    margin: 0em;
+    font-weight: normal;
+    
+
 }
