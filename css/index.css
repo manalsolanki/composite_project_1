@@ -6,7 +6,7 @@
 }
 .top-banner{
     height: 60vh;
-    background-image:url(/img/background-orginal-image.jpg);
+    background-image:url(/project/composite_project-1/img/background-orginal-image.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     display: flex;
