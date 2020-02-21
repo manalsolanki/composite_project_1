@@ -1,3 +1,4 @@
+/* This file includes the Css for Hotel-search page.*/
 .search-bar{
     background-color:rgb(99, 135, 176);
     padding: 1em 3em;
@@ -6,4 +7,9 @@
     justify-content: space-between;
     grid-template-columns: 20fr 20fr 20fr 20fr 20fr;
     grid-gap:1em;
+    margin: 0em 2em;
+}
+.hotel-list{
+    display:inline-block;
+
 }
