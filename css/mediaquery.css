@@ -1,4 +1,6 @@
 @media (max-width:40em){
+
+    /* For the index page. */
     .container{
         display: unset;
         height: unset;
@@ -6,8 +8,8 @@
     }
     .card-container{
         margin-bottom: 1em;
-        
     }
+    /* For the footer. */
     .container-footer{
         grid-template-columns: 33fr 34fr 33fr;
     }
@@ -16,21 +18,29 @@
     }
     .bottom-footer p{
         margin: 0em;
+        padding-bottom: 0em;
     }
     .bottom-footer ul{
         margin: 0em;
         padding: 1em;
     }
+    /* .form-wrapper{
+        display: inline-block;
+        margin:2em;
+    }
+   */
+    /* Media query for hotel-search page. */
+    
+    
 }
-@media(min-width:40em and max-width:55em){
+@media(max-width:55em){
     .container{
         display: unset;
         height: unset;
         margin: 0em;
     }
     .card-container{
-        margin-bottom: 1em;
-        
+        margin:0em 2em 1em 2em;
     }
     .container-footer{
         grid-template-columns: 33fr 34fr 33fr;
@@ -44,6 +54,19 @@
     .bottom-footer ul{
         margin: 0em;
         padding: 1em
+    }
+
+    .search-bar{
+        display: none;    
+    }
+    
+    .hotel-where-button{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .result-container{
+        display: unset;
+        height: unset;
     }
 }
 
