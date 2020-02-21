@@ -4,6 +4,7 @@ body{
     background-color:white;
 }
 
+/* Header CSS */
 .top-navigation-bar{
     display: flex;
     align-items: center;
@@ -12,6 +13,17 @@ body{
     margin: 0em;
     
 }
+.navigation-select{
+    display: flex;
+}
+.select-container{
+    background-color: inherit;
+    border: none;
+    margin:0.5em;
+    font-size: 1.1em;
+} 
+
+/* Footer Css */
 .container-footer{
     background-color:#E6E6E6;
     display: grid;
@@ -20,14 +32,11 @@ body{
     align-items: flex-start;
     margin-bottom: 0em;
     padding: 0em 2em;
-
 }
 .footer-logo{
-    /* background-color: red;*/
     align-items: center;
     padding: 1em;
     margin: 1em;
-
 }
 .footer-elements{
     margin: 1em;
@@ -36,38 +45,16 @@ footer a{
     text-decoration: none;
     color:#333333;
 }
-
+.social-link{
+    width: 3em;
+}
 .bottom-footer{
     display: flex;
     padding:0em 2em;
     background-color: #CFD2D5;
     justify-content: space-between;
     margin:0em;
-   
-}
-.top-banner{
-    background-attachment: fixed;
-    background-image:url(/img/background-image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.social-link{
-    width: 3em;
-}
-
-.select-container{
-    background-color: inherit;
-    border: none;
-    margin:0.5em;
-    font-size: 1.1em;
-}
-
-.navigation-select{
-    display: flex;
 }
 .item-inline{
-    display: inline;
-   
-   
+    display: inline;  
 }
