@@ -33,7 +33,7 @@
     
     
 }
-@media(max-width:880px){
+@media(max-width:55em){
     .container{
         display: unset;
         height: unset;

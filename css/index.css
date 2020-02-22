@@ -147,5 +147,14 @@
     border-radius: 0.25em;
     color: var(--accent-blu);
 }
-
+@media (max-width:768px){
+    .container{
+        display: unset;
+        height: unset;
+    }
+    .card-container{
+        margin: 1em auto;
+        height: 50vh;
+    }
+}
 

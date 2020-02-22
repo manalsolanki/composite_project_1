@@ -69,4 +69,14 @@
 .margin-null{
     margin:0em;
 }
-
+.review-block{
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.text-grey{
+    color: grey;
+}
+.flex{
+    display: flex;
+}
