@@ -46,7 +46,7 @@
     font-size: 1em;
     color: white;
     font-weight: 300;
-    font-family: Arial;
+    font-family:Questrial;
     padding-left: 0.5em;
 }
 .form-fields{
@@ -70,6 +70,7 @@
 .sub-heading{
     color: var(--accent-bro);
     font-weight: normal;
+    font-family: Questrial;
 }
 .container{
     height: max-content;
@@ -147,13 +148,4 @@
     color: var(--accent-blu);
 }
 
-@media (max-width:768px){
-    .container{
-        display: unset;
-        height: unset;
-    }
-    .card-container{
-        margin: 1em auto;
-        height: 50vh;
-    }
-}
+

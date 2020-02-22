@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/reset.css"> 
 		<link rel="stylesheet" href="css/default.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/nelligan-hotel.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Questrial|Varela+Round&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/index-mediaquery.css">
 		<script src="https://kit.fontawesome.com/083416754b.js" crossorigin="anonymous"></script>
@@ -44,8 +45,66 @@
 			</nav>
         </header>
         <main>
-            <section>
-				<a href="hotel-search.html"><i class="fas fa-arrow-left"></i>Go the list</a>
+            <section class="top-image">
+				<h1>Room</h1>
+				<div style="display: flex;">
+					<span><h1>$135</h1></span>
+					<span class="upper-case">/ per night</span>
+				</div>
+			</section>
+			<section class="detail-container">
+				<section class="about">
+					<img src="img/apartment-bed-bedroom-chair.jpg"alt="hotel room image">
+					<h2 class="text-blue">Amenities</h2>
+					<article class="amenities-block">
+						<div>
+							<i class="fas fa-wifi"></i>
+							<p class="margin-null">Wifi</p>
+						</div>
+						<div>
+							<i class="fas fa-swimmer"></i>
+							<p class="margin-null">Swimming</p>
+						</div>
+						<div>
+							<i class="fas fa-dumbbell"></i>
+							<p class="margin-null">Gym</p>
+						</div>	
+						<div>
+							<i class="fas fa-dumbbell"></i>
+							<p class="margin-null">Bar/Lounge</p>
+						</div>
+					</article>
+					<h2 class="text-blue">About</h2>
+					<p>If you’re looking for a family-friendly hotel in Montreal, look no further than Hotel Nelligan Montreal. Given the close proximity of popular landmarks, such as Bell Centre (0.5 km) and Rue St-Paul (0.9 km), guests of Hilton Montreal can easily experience some of Montreal's most well known attractions. Guest rooms offer a flat screen TV, air conditioning, and a refrigerator, and Hilton Montreal Bonaventure Hotel makes getting online easy as free wifi is available. You can also take advantage of some of the amenities offered by the hotel, including room service, a concierge, and a rooftop terrace. In addition, guests can enjoy a pool and a restaurant during their visit. As an added convenience, there is parking available to guests. When you’re feeling hungry, be sure to check out Gibbys, The Keg Steakhouse + Bar - Vieux-Montreal, and The Keg Steakhouse + Bar Place Ville Marie, which are some steakhouses that are popular with locals and out-of-towners alike. Should time allow, Old Montreal, Underground City, and Notre-Dame Basilica are some popular attractions that are within walking distance. The staff at Hotel Bonaventure Montreal looks forward to serving you during your upcoming visit.</p>
+					<h2 class="text-blue">Reviews</h2>
+						
+
+					
+				</section>
+				<article class="book-your-room">
+					<h3 class="text-blue">Book your Room</h3>
+					<div class="field">
+						<label for="checkin" class="form-label">
+							<p>Check-In</p>
+							<input type="date" name="checkin" id="checkin" placeholder="Check-In">
+						</label>
+					</div>
+					<div class="field">
+						<label for="checkout" class="form-label">
+							<p>Check-Out</p>
+							<input type="date" name="checkout" id="checkout" placeholder="Check-Out">
+						</label>
+					</div>
+					<div class="field">
+						<label for="guest">
+							<p>Guests</p>
+							<input type="text" name="guest" id="guest" placeholder="Guests">
+						</label>
+					</div>	
+					<div class="field">
+						<button type="submit"  class="form-search" >Search</button>
+					</div>
+				</article>
 			</section>
         </main>
         <footer>

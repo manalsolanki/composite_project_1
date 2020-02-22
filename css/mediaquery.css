@@ -33,7 +33,7 @@
     
     
 }
-@media(max-width:55em){
+@media(max-width:880px){
     .container{
         display: unset;
         height: unset;
@@ -67,6 +67,16 @@
     .result-container{
         display: unset;
         height: unset;
+    }
+    .result-card{
+        margin:0em 2em;
+    }
+    .book-your-room{
+        display: none !important;
+    }
+    .detail-container{
+        display:grid;
+        grid-template-columns: 1fr;
     }
 }
 
